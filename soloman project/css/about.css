@@ -1,0 +1,280 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Soft gray background */
+    color: #34495e; /* Dark gray text for readability */
+    box-sizing: border-box;
+  }
+  
+  h2, h3, h4 {
+    color: #2c3e50; /* Slightly darker text for headings */
+    font-weight: 700;
+  }
+  
+  /* About Section */
+  .about {
+    background: linear-gradient(to right, #1abc9c, #16a085); /* Turquoise gradient */
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    color: #ecf0f1; /* Light text for paragraphs */
+    line-height: 1.8;
+  }
+  
+  .about h3 {
+    color: #ecf0f1;
+    margin-bottom: 15px;
+    font-size: 2rem;
+  }
+  
+  .about ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about ul li {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #ecf0f1; /* Light text */
+    transition: transform 0.3s ease;
+  }
+  
+  .about ul li:hover {
+    transform: translateX(10px);
+  }
+  
+  .about-btn {
+    background-color: #3498db; /* Blue button */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .about-btn:hover {
+    transform: scale(1.1);
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-container .about-text {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Review Section */
+  .reviews {
+    background: url('../images/review-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .reviews h3 {
+    font-size: 2.5rem;
+    color: #530808;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  
+  .reviews .review {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .reviews .review:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+  }
+  
+  .reviews .review p {
+    font-size: 1.1rem;
+    color: #34495e;
+    line-height: 1.6;
+  }
+  
+  .reviews .customer-name {
+    font-weight: bold;
+    color: #e74c3c; /* Red color for customer name */
+    margin-top: 10px;
+  }
+  
+  .reviews a.about-btn {
+    background-color: #3498db; /* Blue button */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .reviews a.about-btn:hover {
+    transform: scale(1.1);
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  /* Q&A Section */
+  .qna {
+    padding: 80px 20px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .qna h3 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 40px;
+  }
+  
+  .qna-item {
+    background-color: #ecf0f1; /* Light gray background for items */
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .qna-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .qna-item h4 {
+    font-size: 1.4rem;
+    color: #34495e;
+    margin-bottom: 15px;
+  }
+  
+  .qna-item p {
+    font-size: 1.1rem;
+    color: #7f8c8d; /* Slightly lighter gray for text */
+    line-height: 1.7;
+  }
+  
+  .qna a.about-btn {
+    background-color: #3498db; /* Blue button */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .qna a.about-btn:hover {
+    transform: scale(1.1);
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  /* More Reviews and FAQs Sections */
+  .reviews-more, .qna-more {
+    padding: 100px 20px;
+    background: linear-gradient(to right, #f39c12, #e74c3c); /* Gradient for More section */
+    text-align: center;
+    color: #fff;
+  }
+  
+  .reviews-more h3, .qna-more h3 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .reviews-more .review, .qna-more .qna-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .reviews-more .review:hover, .qna-more .qna-item:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+  }
+  
+  .reviews-more .customer-name, .qna-more h4 {
+    font-weight: bold;
+    color: #e74c3c; /* Red color for customer name */
+  }
+  
+  .reviews-more a.about-btn, .qna-more a.about-btn {
+    background-color: #e74c3c; /* Red button */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .reviews-more a.about-btn:hover, .qna-more a.about-btn:hover {
+    transform: scale(1.1);
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+    }
+  
+    .about h2 {
+      font-size: 2.2rem;
+    }
+  
+    .about-btn, .reviews a.about-btn, .qna a.about-btn {
+      padding: 12px 25px;
+    }
+  
+    .reviews .review, .qna-item {
+      padding: 15px;
+    }
+  
+    .reviews h3, .qna h3 {
+      font-size: 2rem;
+    }
+  
+    .reviews-more h3, .qna-more h3 {
+      font-size: 2.2rem;
+    }
+  }
+  
